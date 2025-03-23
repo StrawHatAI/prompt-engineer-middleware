@@ -1,0 +1,17 @@
+version: '3.8'
+
+services:
+  prompt-engineer:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./enhancement_rules.json:/app/enhancement_rules.json
+      - ./enhancement_history.json:/app/enhancement_history.json
+    environment:
+      - OPENAI_API_KEY=${OPENAI_API_KEY}
+      - ANTHROPIC_API_KEY=${ANTHROPIC_API_KEY}
+      - HUGGINGFACE_API_KEY=${HUGGINGFACE_API_KEY}
+    restart: unless-stopped

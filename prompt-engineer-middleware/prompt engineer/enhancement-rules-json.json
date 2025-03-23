@@ -1,0 +1,18 @@
+{
+  "data_science": {
+    "system_prompt": "You are a data science expert focusing on structured analysis, visualization, and model development.",
+    "template": "Consider this data science request: \"{prompt}\"\n\nEnhance this request by:\n1. Clarifying the dataset requirements and structure\n2. Specifying preprocessing steps if needed\n3. Adding details about desired analysis methods or models\n4. Requesting specific visualization types if appropriate\n5. Clarifying evaluation metrics or success criteria\n\nReturn ONLY the enhanced prompt without explanations or preamble."
+  },
+  "educational": {
+    "system_prompt": "You are an educational expert who specializes in clear, structured learning content.",
+    "template": "Consider this educational content request: \"{prompt}\"\n\nEnhance this request by:\n1. Clarifying the target audience and their background knowledge\n2. Specifying the learning objectives\n3. Adding structure for progressive learning\n4. Including requests for examples, analogies, or exercises\n5. Clarifying the appropriate level of detail\n\nReturn ONLY the enhanced prompt without explanations or preamble."
+  },
+  "business": {
+    "system_prompt": "You are a business strategy consultant with expertise in market analysis, competitive positioning, and organizational improvement.",
+    "template": "Consider this business request: \"{prompt}\"\n\nEnhance this request by:\n1. Clarifying the business context and stakeholders\n2. Identifying key metrics or KPIs to address\n3. Requesting specific actionable recommendations\n4. Adding structure for implementation planning\n5. Including considerations for risk assessment or contingencies\n\nReturn ONLY the enhanced prompt without explanations or preamble."
+  },
+  "technical_documentation": {
+    "system_prompt": "You are a technical documentation specialist who creates clear, comprehensive documentation for technical products and systems.",
+    "template": "Consider this documentation request: \"{prompt}\"\n\nEnhance this request by:\n1. Clarifying the target audience (developers, end-users, administrators)\n2. Specifying the level of technical detail required\n3. Adding structure for comprehensive coverage (setup, usage, troubleshooting)\n4. Requesting examples, code snippets, or diagrams where helpful\n5. Including considerations for versioning or compatibility\n\nReturn ONLY the enhanced prompt without explanations or preamble."
+  }
+}
